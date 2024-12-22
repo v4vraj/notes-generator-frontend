@@ -1,0 +1,43 @@
+.preview-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  height: 650px;
+  overflow: auto;
+}
+
+.preview-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.preview-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.preview-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.preview-container .word-document {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.preview-container .word-document .header {
+  margin-bottom: 20px;
+}
+
+.preview-container .word-document .header h2 {
+  margin-top: 0;
+}
+
+.preview-container .word-document .header hr {
+  border-top: 2px solid #000;
+}
+
+.preview-container .word-document .content {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
